@@ -6,5 +6,6 @@ RUN set -xe && \
         pwgen   tzdata su-exec \
       && rm -rf /tmp/src && rm -rf /var/cache/apk/*
       
+      
 CMD ["/srv/stMariaDbSvrGX.sh"]
 #CMD ["/bin/bash"]
