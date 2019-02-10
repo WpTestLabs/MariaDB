@@ -8,4 +8,4 @@ RUN set -xe && \
       
       
 CMD ["/srv/stMariaDbSvrGX.sh"]
-#CMD ["/bin/bash"]
+#CMD ["/bin/bash"] 
